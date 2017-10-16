@@ -27,6 +27,6 @@ Package.onTest(function(api) {
 });
 
 Npm.depends({
-	colors: '^1.1.2',
-	'lodash.throttle': '^4.1.1' 
+	colors: '1.1.2',
+	'lodash.throttle': '4.1.1' 
 });
