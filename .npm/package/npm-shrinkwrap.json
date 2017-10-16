@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "colors": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/colors/-/colors-1.1.2.tgz",
+      "from": "colors@1.1.2"
+    },
+    "lodash.throttle": {
+      "version": "4.1.1",
+      "resolved": "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz",
+      "from": "lodash.throttle@4.1.1"
+    }
+  }
+}

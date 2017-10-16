@@ -1,5 +1,5 @@
 Package.describe({
-	name: 'konecty:user-presence',
+	name: 'lmachens:user-presence',
 	summary: 'Track user status',
 	version: '1.3.0',
 	git: 'https://github.com/lmachens/meteor-user-presence'
