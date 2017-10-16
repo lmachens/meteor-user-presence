@@ -1,5 +1,7 @@
 /* globals Deps, UserPresence */
 
+import throttle from 'lodash.throttle';
+
 var timer, status;
 
 UserPresence = {
@@ -37,7 +39,7 @@ UserPresence = {
 		}
 		UserPresence.stopTimer();
 	},
-	setOnline: _.throttle(function() {
+	setOnline: throttle(function() {
 		if (status !== 'online') {
 			status = 'online';
 			Meteor.call('UserPresence:online');

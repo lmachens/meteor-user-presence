@@ -1,15 +1,14 @@
 Package.describe({
 	name: 'konecty:user-presence',
 	summary: 'Track user status',
-	version: '1.2.9',
-	git: 'https://github.com/Konecty/meteor-user-presence'
+	version: '1.3.0',
+	git: 'https://github.com/lmachens/meteor-user-presence'
 });
 
 Package.onUse(function(api) {
 	api.versionsFrom('1.0.2.1');
 
 	api.use('ecmascript');
-	api.use('underscore');
 
 	api.addFiles('common/common.js');
 	api.addFiles('server/server.js', ['server']);
@@ -28,5 +27,6 @@ Package.onTest(function(api) {
 });
 
 Npm.depends({
-	colors: '1.1.2'
+	colors: '^1.1.2',
+	'lodash.throttle': '^4.1.1' 
 });

@@ -1,3 +1,9 @@
+# 1.3.0 (2016-10-16)
+* Add visitors to UsersSession
+* Use colors npm instead of meteor package
+* Fix problem with file name with Windows
+* Remove underscore dependency
+
 # 1.2.9 (2016-09-09)
 * Fix #16; Prevent error when proccess exit
 * Fix ESLint errors
