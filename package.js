@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function(api) {
 	api.versionsFrom('1.0.2.1');
 
-	api.use('ecmascript');
+	api.use('ecmascript@0.8.0');
 
 	api.addFiles('common/common.js');
 	api.addFiles('server/server.js', ['server']);
